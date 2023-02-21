@@ -138,3 +138,5 @@ fabric.properties
 yarn.lock
 package-lock.json
 
+# design directory
+design/

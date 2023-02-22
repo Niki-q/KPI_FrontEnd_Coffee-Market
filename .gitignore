@@ -138,5 +138,31 @@ fabric.properties
 yarn.lock
 package-lock.json
 
-# design directory
-design/
+# old site version directory
+old/
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# REACT
+
+# dependencies
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

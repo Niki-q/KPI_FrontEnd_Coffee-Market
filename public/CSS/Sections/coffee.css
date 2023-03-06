@@ -1,0 +1,253 @@
+.Coffee{
+    height: 894px;
+    position: relative;
+}
+.Coffee__Background{
+    width: calc(100% * 384 / 1402);
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+.Coffee__Background__Color{
+    height: inherit;
+    width: 100%;
+    float: left;
+}
+.Coffee__Title{
+    margin: 90px auto 72px;
+    width: 331px;
+    height: 60px;
+
+    text-align: center;
+}
+
+.Coffee__Products__Line{
+    display: block;
+}
+.Coffee__Products__Line:nth-child(1) {
+    margin: 0 30px 0 0;
+}
+.Coffee__Products__Line__Product{
+    width: 559px;
+    height: 256px;
+
+    filter: drop-shadow(0px 4px 24px rgba(205, 205, 205, 0.5));
+    background: white;
+
+    display: inline-flex;
+}
+.Coffee__Products__Line__Product:nth-child(1) {
+    margin: 0 0 30px;
+}
+/*.Coffee__Products__Line__Product:nth-child(2) {*/
+/*    margin: 15px 0 0;*/
+/*}*/
+
+.Coffee__Products__Line__Product__Image{
+    width: 235px;
+    height: 256px;
+    float: left;
+
+    background: #EDF0F5;
+
+}
+.Coffee__Products__Line__Product__Content{
+    float: right;
+    width: 240px;
+    height: 172px;
+    margin: 42px;
+}
+.Coffee__Products__Line__Product__Content__Buttons{
+    width: 240px;
+    height: 32px;
+}
+.Coffee__Products__Line__Product__Content__Buttons div{
+    width: 49%;
+    height: 100%;
+    line-height: 180%;
+    display: inline-block;
+}
+.Coffee__Products__Line__Product__Content__Buttons__Buy{
+    border-radius: 19px;
+}
+
+@media (max-width: 576px)
+{
+    .Coffee__Background{
+        /*width: calc(100% * 384 / 1402);*/
+        width: 5%;
+    }
+    .Coffee__Products{
+        margin: 0 auto 0;
+        width: 350px;
+        height: 544px;
+    }
+    .Coffee__Products__Line__Product{
+        width: 350px;
+        height: 225px;
+        overflow: hidden;
+    }
+    .Coffee__Products__Line:nth-child(1){
+        margin: 0 0 0 0;
+    }
+    .Coffee__Products__Line__Product__Image{
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Coffee__Products__Line__Product__Image img{
+        width: 180px;
+        height: auto;
+        margin: 0 auto 0;
+    }
+    .swiper-button-prev-my{
+        top: calc(50% - 68px/2 + 17px);
+        left: 0;
+    }
+    .swiper-button-next-my{
+        top: calc(50% - 68px/2 + 17px);
+        left: calc(100% - 34px);
+    }
+    .Coffee__swiper-button-next-my img{
+        width: 34px;
+        position: center;
+    }
+    .Coffee__swiper-button-prev-my img{
+        width: 34px;
+        position: center;
+    }
+    .Coffee__Products__Line__Product__Content__Buttons{
+        width: 180px;
+        height: 25px;
+    }
+    .Coffee__Products__Line__Product__Content__Buttons div{
+        width: 49%;
+        height: 100%;
+        line-height: 180%;
+        display: inline-block;
+    }
+    .Coffee__Products__Line__Product__Content{
+        float: right;
+        width: 170px;
+        height: 172px;
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .Coffee__Products__Line__Product__Content p{
+        width: 140px;
+    }
+}
+
+@media (min-width: 576px)
+{
+    .Coffee__Background{
+        /*width: calc(100% * 384 / 1402);*/
+        width: 20%;
+    }
+    .Coffee__Products{
+        margin: 0 auto 0;
+        width: 500px;
+        height: 544px;
+    }
+    .Coffee__Products__Line__Product{
+        width: 470px;
+        height: 256px;
+        overflow: hidden;
+    }
+    .Coffee__Products__Line__Product__Image{
+        width: 200px;
+        margin-left: -20px;
+    }
+    .swiper-button-prev-my{
+        left: -34px;
+        top: calc(50% - 68px/2 );
+    }
+    .swiper-button-next-my{
+        left: calc(100% - 34px);
+        top: calc(50% - 68px/2 );
+    }
+    .Coffee__swiper-button-next-my img{
+        width: 68px;
+    }
+    .Coffee__swiper-button-prev-my img{
+        width: 68px;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .Coffee__Products{
+        margin: 0 auto 0;
+        width: 600px;
+        height: 544px;
+    }
+    .Coffee__Products__Line__Product{
+        width: 600px;
+        height: 256px;
+        overflow: hidden;
+    }
+    .Coffee__Products__Line__Product__Image{
+        width: 235px;
+        margin-left: 0;
+    }
+    .swiper-button-prev-my{
+        left: -68px;
+    }
+    .swiper-button-next-my{
+        left: calc(100%);
+    }
+}
+
+@media (min-width: 992px)
+{
+    .Coffee__Products{
+        margin: 0 auto 0;
+        width: 950px;
+        height: 544px;
+    }
+    .Coffee__Products__Line__Product{
+        width: 470px;
+        height: 256px;
+        overflow: hidden;
+    }
+    .Coffee__Products__Line__Product__Image{
+        width: 200px;
+        margin-left: -20px;
+    }
+    .swiper-button-prev-my{
+        left: -34px;
+    }
+    .swiper-button-next-my{
+        left: calc(100% - 34px);
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .Coffee__Products{
+        margin: 0 auto 0;
+        width: 1100px;
+        height: 544px;
+    }
+    .Coffee__Products__Line__Product{
+        width: 530px;
+        height: 256px;
+    }
+}
+
+@media (min-width: 1400px)
+{
+    .Coffee__Products{
+        margin: 0 auto 0;
+        width: 1150px;
+        height: 544px;
+    }
+    .Coffee__Products__Line__Product{
+        width: 559px;
+        height: 256px;
+    }
+}

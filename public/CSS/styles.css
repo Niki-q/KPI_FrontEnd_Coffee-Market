@@ -1,0 +1,69 @@
+
+/*Utility*/
+
+@import url(Utility/Fonts.css); /*Fonts*/
+
+@import url(Utility/color.css); /*Colors*/
+
+@import url(Utility/swiper.css); /*Swiper*/
+
+@import url(Utility/Cart.css); /*Cart*/
+
+/*Sections*/
+
+@import url(Sections/header.css); /*Header*/
+
+@import url(Sections/features.css); /*Features*/
+
+@import url(Sections/coffee.css); /*Coffee*/
+
+@import url(Sections/giftset.css); /*Giftset*/
+
+@import url(Sections/combo.css); /*Combo*/
+
+@import url(Sections/footer.css); /*Footer*/
+
+
+
+section{
+    overflow: hidden;
+}
+/**/
+@media (max-width: 360px)
+{
+    body{
+        display: none;
+    }
+}
+
+/*Media requests*/
+
+/*@media (min-width: 360px)*/
+/*{*/
+
+/*}*/
+
+/*@media (min-width: 576px)*/
+/*{*/
+
+/*}*/
+
+/*@media (min-width: 768px)*/
+/*{*/
+
+/*}*/
+
+/*@media (min-width: 992px)*/
+/*{*/
+
+/*}*/
+
+/*@media (min-width: 1200px)*/
+/*{*/
+
+/*}*/
+
+/*@media (min-width: 1400px)*/
+/*{*/
+
+/*}*/

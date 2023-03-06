@@ -1,0 +1,11 @@
+.Footer{
+    height: 60px;
+
+    background: #EDF0F5;
+}
+.Footer__Text{
+    width: 230px;
+    height: 22px;
+
+    margin: 18px auto 20px;
+}

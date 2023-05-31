@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no maximum-scale=1.0, user-scalable=no" >
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Swiper CSS -->
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <title>Cofee web</title>
+</head>
+<body>
+
+<div id='cart' class="cart-fade">
+    <div class="cart">
+        <a class="cart-close" href="#">Закрыть</a>
+        <table class="cart-table">
+            <caption>Корзина предметов</caption>
+            <tbody id="cart-insert">
+            <tr>
+                <th alt = 'image' class="cart-image">Image</th>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Amount</th>
+                <th>Price</th>
+                <th>AllPrice</th>
+            </tr>
+            </tbody>
+            <tbody>
+            <tr id="purchase">
+                <th alt = 'image' class="cart-image">The total cost</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th id = 'cart-purchase'></th>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<section id ='sec_header' class="Header">
+    <div class="Header__Navigation">
+        <span class="Header__Navigation__Logo">
+            <img src="IMG/Header/revo_logo.png" alt="REVO Logo">
+        </span>
+        <span class="Header__Navigation__Cart ">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </span>
+    </div>
+    <div class="Header__Slide">
+        <div class="Header__Slide__Text">
+                <span class="f-DisplayLarge">YOUR</span>
+                <span class = "f-DisplayLargeSelection" > PERSONALIZED </span>
+                <span class="f-DisplayLarge">COFFEE</span>
+        </div>
+        <div class="Header__Slide__BTN-play">
+
+        </div>
+        <div class="Header__Slide__Image bg-Primary_Color">
+            <img src="IMG/Header/Slide_img.png" alt="Coffe Stain">
+        </div>
+    </div>
+    <div class="Header__Menu bg-Primary_Color">
+        <div class="Header__Menu__Text">
+            <div class="f-Title color-Solitude Header__Menu__Text__Title">TRANG CHỦ </div>
+            <div class="f-Body">
+                <a href="#coffee_products">COFFEE</a><br><br>
+                <a href="#features">PHIN MẠ MÀU</a><br><br>
+                <a href="#combo">COMBO PHIN PHÊ</a><br><br>
+                <a href="#gift_set">GIFTSET</a><br><br>
+                <a href="#">LIÊN HỆ</a><br><br>
+            </div>
+        </div>
+    </div>
+</section>
+<section id ="features" class="Features">
+    <div class="Features__Title">
+        <p class="f-Sub_Title">
+            Your Personalized Coffee
+        </p>
+        <p class="f-DisplayMedium">
+            COFFEE BUILD YOUR BASE
+        </p>
+    </div>
+    <div class="Features__Container row">
+        <div class="Features__Container__Item col-xl-3 col-md-6 col-12">
+            <div class="Features__Container__Item__Image">
+                <img class ="" src="IMG/Features/ic1.svg" alt="Features Icon 1">
+            </div>
+            <div class="Features__Container__Item__Text">
+                <p class="f-Title">
+                    Nguồn gốc
+                </p>
+                <p class="f-Discription">
+                    Những hạt cà phê Arabica, Robusta đạt chất lượng theo tiêu chuẩn quốc tế.
+                </p>
+            </div>
+        </div>
+        <div class="Features__Container__Item col-xl-3 col-md-6 col-12">
+            <div class="Features__Container__Item__Image">
+                <img class ="" src="IMG/Features/IC2.svg" alt="Features Icon 2">
+            </div>
+            <div class="Features__Container__Item__Text">
+                <p class="f-Title">
+                    Chất lượng
+                </p>
+                <p class="f-Discription">
+                    Từng một hạt cà phê là cả một quá trình tập trung cao độ của nghệ nhân cà phê.
+                </p>
+            </div>
+        </div>
+        <div class="Features__Container__Item col-xl-3 col-md-6 col-12">
+            <div class="Features__Container__Item__Image">
+                <img class ="" src="IMG/Features/IC3.svg" alt="Features Icon 3">
+            </div>
+            <div class="Features__Container__Item__Text">
+                <p class="f-Title">
+                    Các loại hạt
+                </p>
+                <p class="f-Discription">
+                    70% chất lượng tách cà phê đến từ nguồn gốc và chất lượng green bean.
+                </p>
+            </div>
+        </div>
+        <div class="Features__Container__Item col-xl-3 col-md-6 col-12">
+            <div class="Features__Container__Item__Image">
+                <img class ="" src="IMG/Features/IC4.svg" alt="Features Icon 4">
+            </div>
+            <div class="Features__Container__Item__Text">
+                <p class="f-Title">
+                    Pha chế
+                </p>
+                <p class="f-Discription">
+                    Những hạt cà phê được lột xác qua quá trình rang xay kỹ lưỡng và nghiêm ngặt.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id ="coffee_products" class="Coffee">
+    <div class="Coffee__Background">
+        <div class="Coffee__Background__Color bg-Primary_Color"></div>
+    </div>
+    <div class="Coffee__Title">
+        <p class="f-Sub_Title">
+            Choose Your Favorite
+        </p>
+        <p class="f-DisplayMedium">
+            CHUẨN GU ĐÚNG VỊ
+        </p>
+    </div>
+    <div class="Coffee__Products">
+        <div id = 'coffee_root'></div>
+    </div>
+</section>
+<section id ="gift_set" class="Giftset">
+    <div class="Giftset__Background">
+        <div class="Giftset__Background__Color bg-Light_gray"></div>
+    </div>
+    <div class="Giftset__Title">
+        <p class="f-Sub_Title">
+            Best Gift For Best Friend
+        </p>
+        <p class="f-DisplayMedium">
+            GIFTSET
+        </p>
+    </div>
+    <div id = "giftset_root" class="Giftset__Container"></div>
+</section>
+<section id ="combo" class="Combo">
+    <div class="Combo__Background">
+        <div class="Combo__Background__Color__Empty"></div>
+        <div class="Combo__Background__Color bg-Primary_Color"></div>
+    </div>
+    <div class="Combo__Title">
+        <p class="f-Sub_Title">
+            Your Personalized Coffee
+        </p>
+        <p class="f-DisplayMedium">
+            COMBO PHIN PHÊ
+        </p>
+    </div>
+    <div class="Combo__Products">
+        <div class="Combo__Products__swiper-container swiper-container">
+            <div id="combo_root"></div>
+        </div>
+    </div>
+</section>
+<section class="Footer">
+    <div class="Footer__Text f-Discription color-Primary_Color">
+        © Revo Coffee Việt Nam - 2018
+    </div>
+</section>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

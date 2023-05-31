@@ -1,8 +1,11 @@
 import React from 'react';
-import './App.css';
+import './index.css';
 
 function App() {
-  return (<h1>Empty React</h1>);
+  return (
+      <></>
+  );
 }
+
 
 export default App;

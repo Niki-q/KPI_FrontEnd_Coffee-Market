@@ -1,0 +1,38 @@
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 60%;
+}
+.swiper-container{
+    overflow: visible;
+    position: relative;
+}
+
+.swiper-button-prev-my{
+    position: absolute;
+    left: -68px;
+    /*top: calc(50% - 68px/2);*/
+    top:calc(50% - 68px + 19px);
+    z-index: 2;
+}
+.swiper-button-next-my{
+    position: absolute;
+    left: calc(100% - 34px);
+    /*top: calc(50% - 68px/2);*/
+    top:calc(50% - 68px + 19px);
+    z-index: 2;
+}
+
+.swiper-button-disabled{
+    visibility: hidden;
+}

@@ -1,0 +1,62 @@
+
+/*Utility*/
+
+@import url(Utility/fonts.css); /*Fonts*/
+
+@import url(Utility/color.css); /*Colors*/
+
+@import url(Utility/swiper.css); /*Swiper*/
+
+
+/*Sections*/
+
+
+@import url(Sections/coffee.css); /*Coffee*/
+
+@import url(Sections/giftset.css); /*Giftset*/
+
+@import url(Sections/combo.css); /*Combo*/
+
+
+section{
+    overflow: hidden;
+}
+/**/
+@media (max-width: 360px)
+{
+    body{
+        display: none;
+    }
+}
+
+/*Media requests*/
+
+/*@media (min-width: 360px)*/
+/*{*/
+
+/*}*/
+
+/*@media (min-width: 576px)*/
+/*{*/
+
+/*}*/
+
+/*@media (min-width: 768px)*/
+/*{*/
+
+/*}*/
+
+/*@media (min-width: 992px)*/
+/*{*/
+
+/*}*/
+
+/*@media (min-width: 1200px)*/
+/*{*/
+
+/*}*/
+
+/*@media (min-width: 1400px)*/
+/*{*/
+
+/*}*/

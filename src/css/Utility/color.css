@@ -1,0 +1,33 @@
+
+/*Background - colors */
+
+.bg-Primary_Color{
+    background: #415167;
+}
+.bg-Accent_Color{
+    background: #C7A17A;
+}
+.bg-Light_gray{
+    background: #EDF0F5;
+}
+.bg-White_Color{
+    background: white;
+}
+
+/*Text - colors */
+
+.color-Primary_Color{
+    color: #415167;
+}
+.color-Accent_Color{
+    color: #C7A17A;
+}
+.color-Dark_gray{
+    color: #151D28;
+}
+.color-White{
+    color: white;
+}
+.color-Solitude{
+    color: #EDF0F5;
+}
